@@ -5,7 +5,7 @@ import HeroSection from "@/components/hero-section";
 import PortfolioGallery from "@/components/portfolio-gallery";
 import ServicesOverview from "@/components/services-overview";
 import StatsSection from "@/components/stats-section";
-import TestimonialsSection from "@/components/testimonials-section";
+// import TestimonialsSection from "@/components/testimonials-section";
 
 export default function HomePage() {
   return (
@@ -15,7 +15,7 @@ export default function HomePage() {
       <ServicesOverview />
       <PortfolioGallery />
       <StatsSection />
-      <TestimonialsSection />
+      {/* <TestimonialsSection /> */}
       <Footer />
       <WhatsAppChat />
     </main>
